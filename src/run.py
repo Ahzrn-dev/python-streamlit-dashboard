@@ -36,7 +36,7 @@ col1.metric(label="my website members",value="4000",delta="50")
 col2.metric(label="my telegram groups members",value="300",delta="-10")
 col3.metric(label="my instagram folowers",value='5k',delta='1250')
 
-
+#title settings
 st.title(':zap: pytopia')
 st.text("hi")
 st.code("x=12")
@@ -44,7 +44,7 @@ with st.expander('statistics'):
     fig , ax = plt.subplots(1,1,figsize=(10,5))
     sns.histplot(np.random.randn(100),ax=ax)
     st.pyplot(fig)
-
+#expanders settings
 with st.expander("user profile"):
     col1 , col2 = st.columns(2)
     col1.text_input('name:')
