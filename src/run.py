@@ -3,7 +3,7 @@ import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-
+#login and signup settings
 login_option=st.sidebar.radio('login/signup',('login','signup'))
 if login_option=='login' :
     st.title('login')
@@ -30,7 +30,7 @@ else:
 
 st.write("Outside the form")
 st.image("PythonToolKit_Banner.png",caption="This is a python project")
-
+#metric definitions
 col1,col2 ,col3 = st.columns(3)
 col1.metric(label="my website members",value="4000",delta="50")
 col2.metric(label="my telegram groups members",value="300",delta="-10")
