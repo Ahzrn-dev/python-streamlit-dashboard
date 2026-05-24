@@ -83,7 +83,7 @@ print(gen.generate())
 - Random / String built-ins
 
 ## 📸 Screenshot
-![App Preview](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvB3F8DTgjNfUHd6HkdUvxZm-5rO94kJ1KQQ&s)
+![App Preview](screenshot.png)
 
 ## 👨‍💻 Author
 **ahzrn-dev**  
